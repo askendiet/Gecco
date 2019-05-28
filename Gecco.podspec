@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.summary = 'Simply highlight items for your tutorial walkthrough, written in Swift'
   s.authors = { 'yukiasai' => 'yukiasai@gmail.com' }
   s.source = { :git => 'https://github.com/yukiasai/Gecco.git', :tag => s.version }
+  s.swift_version = '4.2'
 
   s.ios.deployment_target = '8.0'
   
