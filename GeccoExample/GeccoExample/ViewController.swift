@@ -27,6 +27,10 @@ class ViewController: UIViewController {
         viewController.alpha = 0.5
         present(viewController, animated: true, completion: nil)
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }
 
 

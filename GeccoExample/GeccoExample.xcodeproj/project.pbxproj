@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617CD444250A2DFB00E2D8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CD439250A2DFB00E2D8F0 /* AppDelegate.swift */; };
+		617CD445250A2DFB00E2D8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617CD43B250A2DFB00E2D8F0 /* LaunchScreen.storyboard */; };
+		617CD446250A2DFC00E2D8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617CD43D250A2DFB00E2D8F0 /* Main.storyboard */; };
+		617CD448250A2DFC00E2D8F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CD440250A2DFB00E2D8F0 /* SceneDelegate.swift */; };
+		617CD449250A2DFC00E2D8F0 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CD441250A2DFB00E2D8F0 /* AnnotationViewController.swift */; };
+		617CD44A250A2DFC00E2D8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617CD442250A2DFB00E2D8F0 /* Assets.xcassets */; };
+		617CD44B250A2DFC00E2D8F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CD443250A2DFB00E2D8F0 /* ViewController.swift */; };
+		617CD44E250A2E6300E2D8F0 /* Gecco in Frameworks */ = {isa = PBXBuildFile; productRef = 617CD44D250A2E6300E2D8F0 /* Gecco */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		617CD3FF250A2D1F00E2D8F0 /* GeccoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeccoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617CD439250A2DFB00E2D8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		617CD43C250A2DFB00E2D8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617CD43E250A2DFB00E2D8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		617CD43F250A2DFB00E2D8F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617CD440250A2DFB00E2D8F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		617CD441250A2DFB00E2D8F0 /* AnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
+		617CD442250A2DFB00E2D8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617CD443250A2DFB00E2D8F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617CD3FC250A2D1F00E2D8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617CD44E250A2E6300E2D8F0 /* Gecco in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617CD3F6250A2D1F00E2D8F0 = {
+			isa = PBXGroup;
+			children = (
+				617CD401250A2D1F00E2D8F0 /* GeccoExample */,
+				617CD400250A2D1F00E2D8F0 /* Products */,
+				617CD418250A2D7F00E2D8F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		617CD400250A2D1F00E2D8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617CD3FF250A2D1F00E2D8F0 /* GeccoExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617CD401250A2D1F00E2D8F0 /* GeccoExample */ = {
+			isa = PBXGroup;
+			children = (
+				617CD441250A2DFB00E2D8F0 /* AnnotationViewController.swift */,
+				617CD439250A2DFB00E2D8F0 /* AppDelegate.swift */,
+				617CD442250A2DFB00E2D8F0 /* Assets.xcassets */,
+				617CD43A250A2DFB00E2D8F0 /* Base.lproj */,
+				617CD43F250A2DFB00E2D8F0 /* Info.plist */,
+				617CD440250A2DFB00E2D8F0 /* SceneDelegate.swift */,
+				617CD443250A2DFB00E2D8F0 /* ViewController.swift */,
+			);
+			path = GeccoExample;
+			sourceTree = "<group>";
+		};
+		617CD418250A2D7F00E2D8F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		617CD43A250A2DFB00E2D8F0 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				617CD43B250A2DFB00E2D8F0 /* LaunchScreen.storyboard */,
+				617CD43D250A2DFB00E2D8F0 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617CD3FE250A2D1F00E2D8F0 /* GeccoExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617CD413250A2D2000E2D8F0 /* Build configuration list for PBXNativeTarget "GeccoExample" */;
+			buildPhases = (
+				617CD3FB250A2D1F00E2D8F0 /* Sources */,
+				617CD3FC250A2D1F00E2D8F0 /* Frameworks */,
+				617CD3FD250A2D1F00E2D8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeccoExample;
+			packageProductDependencies = (
+				617CD44D250A2E6300E2D8F0 /* Gecco */,
+			);
+			productName = GeccoExample;
+			productReference = 617CD3FF250A2D1F00E2D8F0 /* GeccoExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617CD3F7250A2D1F00E2D8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "takuya osawa";
+				TargetAttributes = {
+					617CD3FE250A2D1F00E2D8F0 = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
+					};
+				};
+			};
+			buildConfigurationList = 617CD3FA250A2D1F00E2D8F0 /* Build configuration list for PBXProject "GeccoExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617CD3F6250A2D1F00E2D8F0;
+			packageReferences = (
+				617CD44C250A2E6300E2D8F0 /* XCRemoteSwiftPackageReference "Gecco" */,
+			);
+			productRefGroup = 617CD400250A2D1F00E2D8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617CD3FE250A2D1F00E2D8F0 /* GeccoExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617CD3FD250A2D1F00E2D8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617CD445250A2DFB00E2D8F0 /* LaunchScreen.storyboard in Resources */,
+				617CD446250A2DFC00E2D8F0 /* Main.storyboard in Resources */,
+				617CD44A250A2DFC00E2D8F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617CD3FB250A2D1F00E2D8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617CD449250A2DFC00E2D8F0 /* AnnotationViewController.swift in Sources */,
+				617CD444250A2DFB00E2D8F0 /* AppDelegate.swift in Sources */,
+				617CD44B250A2DFC00E2D8F0 /* ViewController.swift in Sources */,
+				617CD448250A2DFC00E2D8F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		617CD43B250A2DFB00E2D8F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617CD43C250A2DFB00E2D8F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		617CD43D250A2DFB00E2D8F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617CD43E250A2DFB00E2D8F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617CD411250A2D2000E2D8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		617CD412250A2D2000E2D8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617CD414250A2D2000E2D8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeccoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gecco.GeccoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617CD415250A2D2000E2D8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeccoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gecco.GeccoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617CD3FA250A2D1F00E2D8F0 /* Build configuration list for PBXProject "GeccoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617CD411250A2D2000E2D8F0 /* Debug */,
+				617CD412250A2D2000E2D8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617CD413250A2D2000E2D8F0 /* Build configuration list for PBXNativeTarget "GeccoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617CD414250A2D2000E2D8F0 /* Debug */,
+				617CD415250A2D2000E2D8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		617CD44C250A2E6300E2D8F0 /* XCRemoteSwiftPackageReference "Gecco" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/askendiet/Gecco.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		617CD44D250A2E6300E2D8F0 /* Gecco */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617CD44C250A2E6300E2D8F0 /* XCRemoteSwiftPackageReference "Gecco" */;
+			productName = Gecco;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 617CD3F7250A2D1F00E2D8F0 /* Project object */;
+}

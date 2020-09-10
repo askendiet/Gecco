@@ -11,8 +11,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Gecco",
-            path: "Classes"
+            name: "Gecco"
         ),
          .testTarget(
             name: "GeccoTests",
