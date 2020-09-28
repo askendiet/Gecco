@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 import UIKit
 
-protocol SpotlightTransitionControllerDelegate: class {
+protocol SpotlightTransitionControllerDelegate: AnyObject {
     func spotlightTransitionWillPresent(_ controller: SpotlightTransitionController, transitionContext: UIViewControllerContextTransitioning)
     func spotlightTransitionWillDismiss(_ controller: SpotlightTransitionController, transitionContext: UIViewControllerContextTransitioning)
 }

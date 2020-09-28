@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 import UIKit
 
-@objc public protocol SpotlightViewControllerDelegate: class {
+@objc public protocol SpotlightViewControllerDelegate: AnyObject {
     @objc optional func spotlightViewControllerWillPresent(_ viewController: SpotlightViewController, animated: Bool)
     @objc optional func spotlightViewControllerWillDismiss(_ viewController: SpotlightViewController, animated: Bool)
     @objc optional func spotlightViewControllerTapped(_ viewController: SpotlightViewController, isInsideSpotlight: Bool)
