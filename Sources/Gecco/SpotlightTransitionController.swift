@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 yukiasai. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 protocol SpotlightTransitionControllerDelegate: class {
@@ -95,3 +96,4 @@ class SpotlightTransitionController: NSObject, UIViewControllerAnimatedTransitio
     func animationEnded(_ transitionCompleted: Bool) {
     }
 }
+#endif

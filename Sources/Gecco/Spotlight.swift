@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 yukiasai. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 public protocol SpotlightType {
@@ -89,3 +90,4 @@ open class Spotlight {
         }
     }
 }
+#endif

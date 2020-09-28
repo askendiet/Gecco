@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 yukiasai. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 @objc public protocol SpotlightViewControllerDelegate: class {
@@ -112,3 +113,4 @@ extension SpotlightViewController: UIViewControllerTransitioningDelegate {
         return transitionController
     }
 }
+#endif

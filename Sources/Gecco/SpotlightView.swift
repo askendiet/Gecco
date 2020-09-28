@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 yukiasai. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 open class SpotlightView: UIView {
@@ -116,3 +117,4 @@ public enum SpotlightMoveType {
     case direct
     case disappear
 }
+#endif
