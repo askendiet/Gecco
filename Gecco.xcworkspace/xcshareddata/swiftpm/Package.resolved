@@ -5,9 +5,9 @@
         "package": "Gecco",
         "repositoryURL": "https://github.com/askendiet/Gecco.git",
         "state": {
-          "branch": "master",
-          "revision": "2390159f7a68f2f8677a69be002197787038ca93",
-          "version": null
+          "branch": null,
+          "revision": "214fe439def856671969f4c7eb2af11b39057321",
+          "version": "1.0.2"
         }
       }
     ]
